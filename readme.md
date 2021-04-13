@@ -20,7 +20,7 @@
 
 | 주차 | 날짜 | 공식문서 | 정리 |
 |---|---|-----------|------|
-|1주차|4/8 - 4/15|[Getting Started](https://docs.spring.io/spring-boot/docs/2.4.3/reference/html/getting-started.html#getting-started)|[바로가기]()|
+|1주차|4/8 - 4/15|[Getting Started](https://docs.spring.io/spring-boot/docs/2.4.3/reference/html/getting-started.html#getting-started)|[바로가기](https://github.com/cmg1411/SpringbootDocs/blob/master/src/main/java/com/meetcoder/Week1/week1.md)|
 
 
  

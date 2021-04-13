@@ -32,7 +32,8 @@
 > 웹서버가 요청을 받으면, 서블릿 컨테이너로 전달하고, 서블릿 컨테이너는 적절한 서블릿에게 작업을 전달한다.
 
 > 서블릿 생명주기
-![img](ServletLifeCycle.png)
+>
+> ![img](ServletLifeCycle.png)
 > 1. 사용자 요청
 > 1. 서블릿 컨테이너에서 HttpServletRequest, HttpServletResponse 객체 생성
 > 1. Web.xml(DD. Deploy Descriptor, 배포 서술) 을 참고하여 어떤 서블릿에 대한 요청인지 찾는다.
