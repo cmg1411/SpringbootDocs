@@ -1,5 +1,9 @@
 # Getting Started
 
+`해당 문서는 Spring boot 공식 문서를 읽고 공부한 내용입니다 원본은 아래의 링크를 클릭 !`  
+[Using Spring Boot](https://docs.spring.io/spring-boot/docs/2.4.3/reference/html/index.html)
+
+
 ## 공식문서가 소개하는 **Spring Boot 의 목적**
 스프링 부트를 사용하면,
 
