@@ -20,8 +20,8 @@
 
 | 주차 | 날짜 | 공식문서 | 정리 |
 |---|---|-----------|------|
-|1주차|4/8 - 4/15|[Getting Started](https://docs.spring.io/spring-boot/docs/2.4.3/reference/html/getting-started.html#getting-started)|[바로가기](https://github.com/cmg1411/SpringbootDocs/blob/master/src/main/java/com/meetcoder/week1/week1.md)|
-|1주차|4/8 - 4/15|[Build System / Structuring Your Code / Configuration Classes / Auto-configuration](https://docs.spring.io/spring-boot/docs/2.4.3/reference/html/using-spring-boot.html#using-boot-build-systems)|[바로가기](https://github.com/cmg1411/SpringbootDocs/blob/master/src/main/java/com/meetcoder/week2/week2.md)|
+|1|4/8 - 4/15|[Getting Started](https://docs.spring.io/spring-boot/docs/2.4.3/reference/html/getting-started.html#getting-started)|[바로가기](https://github.com/cmg1411/SpringbootDocs/blob/master/src/main/java/com/meetcoder/week1/week1.md)|
+|2|4/16 - 4/22|[Build System / Structuring Your Code / Configuration Classes / Auto-configuration](https://docs.spring.io/spring-boot/docs/2.4.3/reference/html/using-spring-boot.html#using-boot-build-systems)|[바로가기](https://github.com/cmg1411/SpringbootDocs/blob/master/src/main/java/com/meetcoder/week2/week2.md)|
 
 
  
