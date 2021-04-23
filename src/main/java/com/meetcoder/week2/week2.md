@@ -196,6 +196,24 @@ Positive matches:
 ```
 <br>
 
+## 자동 설정 라이브러리들 중 선별하는 법 ?
+자동 설정 라이브러리들은 spring.factories 메타파일에 모두 정의되어 있는데, 메타파일에 아무 라이브러리를 타고 들어가보자. 
+ - `org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration,\` 를 타고 들어가보았다.
+ - `@ConditionalOnWebApplication(type = Type.SERVLET)` 에너테이션이 정의되어 있다.
+ - @Conditional ~ 에너테이션이 어떠한 상황에서만 이 메타라이브러리를 로딩하라 ! 라는 조건을 걸어준다.
+ 
+SpringBoot는 @Conditional을 확장하여, 여러가지 어노테이션을 제공한다.  
+
+@ConditionalOnWebApplication : 프로젝트가 웹 애플리케이션이면 Bean 등록  
+@ConditionalOnBean: 해당 Bean 이 존재하면 자동 설정 등록  
+@ConditionalOnMissingBean: 해당 Bean 이 존재하지 않으면 자동설정 등록  
+@ConditionalOnClass: 해당 클래스가 classpath 에 존재하면 자동설정 등록  
+@ConditionalOnMissingClass: 해당 클래스가 클래스 패스에 존재하지 않으면 Bean 등록  
+@ConditionalOnResource: 해당 자원(file 등)이 존재하면 자동설정 등록  
+@ConditionalOnProperty: 설정한 프로퍼티가 존재하면 자동설정 등록  
+ 
+
+
 ## 자동 구성한 설정 제외하기
 
 위의 과정을 통해 어떤 라이브러리가 자동구성되는지 알았다. 만약 특정 자동구성을 사용하고 싶지 않으면 아래의 3가지 방법으로 할 수 있다.
