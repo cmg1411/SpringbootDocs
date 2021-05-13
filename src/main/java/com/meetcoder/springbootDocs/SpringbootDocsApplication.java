@@ -49,6 +49,7 @@ public class SpringbootDocsApplication {
 //	}
 
 	public static void main(String[] args) {
-
+		SpringApplication s = new SpringApplication();
+		s.run(SpringbootDocsApplication.class, args);
 	}
 }
